@@ -1,6 +1,6 @@
 {
   "name": "@igor-j86/snowflakes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Snowflakes component",
   "keywords": [
     "react",
