@@ -1,4 +1,4 @@
-name: Release and publish drag-n-drop
+name: Release and publish snowflakes
 
 on:
   push:

@@ -3,21 +3,33 @@ import * as React from "react";
 export interface SnowflakesProps {
   /** Container id */
   id?: string;
+  /** Number of snowflakes */
+  snowflakes?: number;
+  /** Max snowflakes size */
+  maxSize?: number;
+  /** Max snowflakes speed */
+  maxSpeed?: number;
+  /** Snowflakes color */
+  color?: string;
   
 }
 
 export const Snowflakes: React.FC<SnowflakesProps> = ({
   id = "snowflakes",
+  snowflakes = 100,
+  maxSize = 3,
+  maxSpeed = 0.5,
+  color = '#dddddd'
 }) => {
   const canv = React.useRef<HTMLCanvasElement>(null)
   
   React.useEffect(() => {
     if(canv.current) {
-      const NUMBER_OF_FLAKES = 100
-      const MAX_FLAKES_SIZE = 3
+      const NUMBER_OF_FLAKES = snowflakes
+      const MAX_FLAKES_SIZE = maxSize
       const MAX_FLAKES_BLUR = 2
-      const MAX_FLAKES_SPEED = 0.5
-      const FLAKES_COLOR = '#dddddd';
+      const MAX_FLAKES_SPEED = maxSpeed
+      const FLAKES_COLOR = color;
       const flakes:Array<object> = []
 
       canv.current.style.position = 'fixed'

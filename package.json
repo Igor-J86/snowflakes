@@ -1,11 +1,11 @@
 {
-  "name": "@igor-j86/drag-n-drop",
-  "version": "1.1.2",
-  "description": "A data driven drag-n-drop React component",
+  "name": "@igor-j86/snowflakes",
+  "version": "0.1.0",
+  "description": "Snowflakes component",
   "keywords": [
     "react",
     "frontend",
-    "drag-n-drop",
+    "snowflakes",
     "component"
   ],
   "module": "./lib/esm/index.js",
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Igor-J86/drag-n-drop.git"
+    "url": "git+https://github.com/Igor-J86/snowflakes.git"
   },
   "author": "Igor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Igor-J86/drag-n-drop/issues"
+    "url": "https://github.com/Igor-J86/snowflakes/issues"
   },
-  "homepage": "https://github.com/Igor-J86/drag-n-drop#readme",
+  "homepage": "https://github.com/Igor-J86/snowflakes#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "tag": "latest",
