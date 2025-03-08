@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Igor-J86/snowflakes/compare/v1.1.0...v1.1.1) (2025-03-08)
+
+
+### Bug Fixes
+
+* make peer deps react 19 ([7ab56be](https://github.com/Igor-J86/snowflakes/commit/7ab56be37433278fb6f4d759acf2003d42bb1d6e))
+
 # [1.1.0](https://github.com/Igor-J86/snowflakes/compare/v1.0.0...v1.1.0) (2025-03-08)
 
 
