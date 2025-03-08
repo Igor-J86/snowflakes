@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Igor-J86/snowflakes/compare/v1.0.0...v1.1.0) (2025-03-08)
+
+
+### Features
+
+* upgrade to deps and to react 19 ([bbd7aa7](https://github.com/Igor-J86/snowflakes/commit/bbd7aa7f3820bf1fe06f0c917980f9ce052470ab))
+
 # 1.0.0 (2024-12-15)
 
 
